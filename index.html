@@ -1,146 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV Daria</title>
-
+    <title>CV Daria Grabska - Manual Tester / Accessibility Specialist</title>
     <link href="style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
-  </head>
-  <body>
+</head>
+<body>
     <div class="wrapper">
-      <main>
-        <div class="main-description">
-          <h2 class="job-tiltle">Junior Quality Assurance</h2>
-          <h1 class="name">Daria Grabska</h1>
-          <p class="job-description">
-            As a person who does not like to stand still, during the pandemic I decided to change something. I completed post-graduate studies in the
-            field of Software Tester. During the preparation of my diploma project, I got to know automatic tests from the practical side. At the
-            moment, I am still developing, constantly learning tools and programs. In the future, I do not exclude the development into an automation
-            tester.
-          </p>
-        </div>
+        <main class="main-content">
+            <header class="main-description">
+                <p class="job-title" role="doc-subtitle">Manual Tester / Accessibility Specialist</p>
+                <h1 class="name">Daria Grabska</h1>
+                <p class="job-description">
+                    Manual Software Tester with a strong focus on Accessibility (WCAG) and Design Systems. Experienced in conducting detailed manual tests of web applications (desktop and mobile) to ensure functional correctness and high-quality UX. Specialize in analyzing HTML semantics and conducting accessibility audits, bridging the gap between design requirements and inclusive implementation.
+                </p>
+            </header>
 
-        <div>
-          <h2 class="header-name">Work Experience</h2>
-          <h3 class="job-name">
-            Senior Specialist
-            <br />
-            <span class="highlight"> Marshal's Office of the Pomeranian Voivodeship | Tourism Department </span>
-          </h3>
-          <h6 class="date">December 2016 - up to now</h6>
-          <ul class="list">
-            <li>Administration of the departmental website</li>
-            <li>Coordination of the activities of Strategic Projects</li>
-            <li>Cooperation in the development of the voivodship strategy and theregional strategic programme</li>
-            <li>Analysis of tourist market data</li>
-            <li>Creation and correction of content on tourism portal</li>
-            <li>Cooperation in the implementation of the new version of the software on INFOMATS</li>
-            <li>Cooperation in changing the portal's CMS</li>
-          </ul>
-          <h3 class="job-name">
-            Freelancer
-            <br />
-            <span class="highlight"> Bossard Poland </span>
-          </h3>
-          <h6 class="date">June 2022 - practice</h6>
-          <ul class="list">
-            <li>Support for website maintenance testing on mobile devices</li>
-            <li>Execution of test cases on mobile devices and emulators</li>
-            <li>Preparation of test report</li>
-            <li>Defect reporting</li>
-          </ul>
-        </div>
+            <section aria-labelledby="experience-header">
+                <h2 id="experience-header" class="header-name">Work Experience</h2>
 
-        <div>
-          <h2 class="header-name">Education</h2>
-          <h3 class="school">WSB University in Gdańsk</h3>
-          <h4 class="field">Software Tester - Postgraduate studies</h4>
-          <h6 class="date">October 2021 - June 2022</h6>
-          <ul class="list">
-            <li>
-              Diploma project "Design and execution of automated functional tests of key functionalities of any application using Selenium WebDriver
-              with the Page Object pattern (Python)"
-            </li>
-          </ul>
+                <article class="experience-item">
+                    <h3 class="job-name">Software Tester (Design System)</h3>
+                    <p class="company-name">Wakacje.pl S.A.</p>
+                    <p class="date">February 2025 - Present</p>
+                    <ul class="list">
+                        <li><strong>Manual Component Testing:</strong> Testing design system components in Storybook; verifying UX documentation and Figma mockups for visual consistency.</li>
+                        <li><strong>Accessibility (WCAG):</strong> Conducting digital accessibility audits; analyzing HTML semantics to identify issues affecting inclusivity and usability.</li>
+                        <li><strong>Collaboration:</strong> Partnering with UX designers and developers to refine components and consulting on accessibility best practices.</li>
+                    </ul>
+                </article>
 
-          <h3 class="school">University of Gdańsk</h3>
+                <article class="experience-item">
+                    <h3 class="job-name">Junior Software Tester</h3>
+                    <p class="company-name">Wakacje.pl S.A.</p>
+                    <p class="date">October 2023 - February 2025</p>
+                    <ul class="list">
+                        <li><strong>UI/UX Validation:</strong> Comprehensive manual testing of web applications with a focus on UI layer, analytics (GA4), and SEO.</li>
+                        <li><strong>Knowledge Sharing:</strong> Conducting internal accessibility (WCAG) workshops for the team.</li>
+                        <li><strong>Defect Management:</strong> Reporting and tracking software defects using JIRA in Agile/Scrum environment.</li>
+                    </ul>
+                </article>
 
-          <h4 class="field">Ethnology - Master's degree</h4>
-          <h6 class="date">October 2013 - June 2015</h6>
+                <article class="experience-item">
+                    <h3 class="job-name">Senior Specialist</h3>
+                    <p class="company-name">Marshal's Office of the Pomeranian Voivodeship</p>
+                    <p class="date">December 2016 - September 2023</p>
+                </article>
 
-          <h4 class="field">Ethnology - Bachelor's degree</h4>
-          <h6 class="date">October 2010 - June 2013</h6>
-        </div>
-        <div class="Courses">
-          <h2 class="header-name">Courses | Certificates</h2>
+                <article class="experience-item">
+                    <h3 class="job-name">Software Tester Intern</h3>
+                    <p class="company-name">Bossard Poland</p>
+                    <p class="date">June 2022 - August 2022</p>
+                </article>
+            </section>
 
-          <ul class="list">
-            <li>ISTQB Foundation Level <samp class="date">2022</samp></li>
-            <li>Creating accessible WORD documents and PDF and editing the content of the accessible website <samp class="date">2020</samp></li>
-            <li>PRINCE2 Foundation <samp class="date">2019</samp></li>
-            <li>A practical course on software testing<samp class="date"> Udemy</samp></li>
-            <li>4-day QA marathon<samp class="date"> GoIT</samp></li>
-            <li>7-day HTML + CSS marathon<samp class="date"> GoIT</samp></li>
-          </ul>
-        </div>
-        <div class="date">
-          <p>
-            I agree to the processing of personal data provided in this document for realising the recruitment process pursuant to the Personal Data
-            Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament
-            and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free
-            movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation).
-          </p>
-        </div>
-      </main>
-      <aside>
-        <img class="cv-photo" src="photo.jpg" width="370" height="354" alt="Zdjęcie Daria Grabska" />
-        <div class="contact-block">
-          <h2 class="headers-secondary">Contacts</h2>
-          <p class="links">
-            <span class="bold">E:</span>
-            <a class="links" href="mailto: daria_grabska@wp.pl">daria_grabska@wp.pl</a>
-            <br />
-            <span class="bold">L:</span>
-            <a class="links" href="https://linkedin.com/in/daria-grabska">https://linkedin.com/in/daria-grabska</a>
-            <br />
-            <span class="bold">G:</span>
-            <a class="links" href="https://github.com/DariaGra">https://github.com/DariaGra</a>
-          </p>
-        </div>
-        <div class="tech-block">
-          <h2 class="headers-secondary">Tech Skills</h2>
-          <h6 class="date">Basic knowledge</h6>
-          <ul class="list-secondary">
-            <li><span class="list-secondary-item">Postman</span></li>
-            <li><span class="list-secondary-item">JIRA</span></li>
-            <li><span class="list-secondary-item">GIT</span></li>
-            <li><span class="list-secondary-item">SQL</span></li>
-            <li><span class="list-secondary-item">TestRail</span></li>
-            <li><span class="list-secondary-item">HTML</span></li>
-            <li><span class="list-secondary-item">CSS</span></li>
-            <li><span class="list-secondary-item">Python</span></li>
-            <li><span class="list-secondary-item">Pytest</span></li>
-            <li><span class="list-secondary-item">Selenium WebDriver</span></li>
-          </ul>
-        </div>
-        <div class="soft-skills-block">
-          <h2 class="headers-secondary">Soft Skills</h2>
-          <ul class="list-secondary">
-            <li><span class="list-secondary-item">Responsibility</span></li>
-            <li><span class="list-secondary-item">Good organisation</span></li>
-            <li><span class="list-secondary-item">Analytical thinking</span></li>
-            <li><span class="list-secondary-item">Teamwork</span></li>
-            <li><span class="list-secondary-item">Communicativeness</span></li>
-            <li><span class="list-secondary-item">Problem-solving</span></li>
-            <li><span class="list-secondary-item">Communicative English</span></li>
-          </ul>
-        </div>
-      </aside>
+            <section aria-labelledby="education-header">
+                <h2 id="education-header" class="header-name">Education</h2>
+                <article>
+                    <h3 class="school">WSB University in Gdańsk</h3>
+                    <p class="field">Software Tester - Postgraduate studies</p>
+                    <p class="date">2021 - 2022</p>
+                </article>
+                <article>
+                    <h3 class="school">University of Gdańsk</h3>
+                    <p class="field">Ethnology - Master's & Bachelor's degree</p>
+                    <p class="date">2010 - 2015</p>
+                </article>
+            </section>
+
+            <footer class="clause">
+                <p>I agree to the processing of personal data provided in this document for realising the recruitment process pursuant to the Personal Data Protection Act.</p>
+            </footer>
+        </main>
+
+        <aside class="sidebar">
+            <div class="photo-container">
+                <img class="cv-photo" src="photo.jpg" alt="Daria Grabska - portrait photo">
+            </div>
+            
+            <section class="contact-block">
+                <h2 class="headers-secondary">Contacts</h2>
+                <p class="contact-info">
+                    <span class="bold">E:</span> <a href="mailto:daria_grabska@wp.pl">daria_grabska@wp.pl</a><br>
+                    <span class="bold">L:</span> <a href="https://linkedin.com/in/daria-grabska">LinkedIn Profile</a><br>
+                    <span class="bold">G:</span> <a href="https://github.com/DariaGra">GitHub Profile</a>
+                </p>
+            </section>
+
+            <section class="tech-block">
+                <h2 class="headers-secondary">Tech Skills</h2>
+                <ul class="list-secondary">
+                    <li><strong>Design & Documentation:</strong> Figma (Specs & UX Verification), Storybook (Component Testing), WCAG Audits, HTML Semantics</li>
+                    <li><strong>Tools:</strong> JIRA, Screen Readers (NVDA, VoiceOver), A11y Testing Tools (Axe, WAVE, ARC Toolkit), Contrast Checkers</li>
+                    <li><strong>Web & Quality:</strong> Google Analytics 4, SEO Testing, Cross-browser Testing</li>
+                </ul>
+            </section>
+
+            <section class="soft-skills-block">
+                <h2 class="headers-secondary">Soft Skills</h2>
+                <ul class="list-secondary">
+                    <li>Mentoring & Workshops</li>
+                    <li>Analytical thinking</li>
+                    <li>Cross-team collaboration</li>
+                    <li>Professional English (B2)</li>
+                </ul>
+            </section>
+        </aside>
     </div>
-  </body>
+</body>
 </html>
