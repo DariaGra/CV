@@ -48,19 +48,19 @@ aside {
 .headers-secondary {
     font-size: 18px;
     text-transform: uppercase;
-    border-bottom: 2px solid #e65a28;
+    border-bottom: 2px solid #e63e01;
     padding-bottom: 5px;
     margin-bottom: 15px;
     margin-top: 35px;
 }
 
 .contact-info { font-size: 14px; line-height: 1.8; }
-.contact-info a { color: #99c2ff; text-decoration: underline; }
-.bold { color: #e65a28; font-weight: 700; margin-right: 5px; }
+.contact-info a { color: #dae5f5; text-decoration: underline; }
+.bold { color: #e63e01; font-weight: 700; margin-right: 5px; }
 
 .list-secondary { list-style: none; }
 .list-secondary li { font-size: 13px; margin-bottom: 8px; line-height: 1.6; }
-.list-secondary strong { color: #e65a28; }
+.list-secondary strong { color: #e63e01; }
 
 /* MAIN CONTENT */
 main {
@@ -68,9 +68,9 @@ main {
     padding: 60px 70px;
 }
 
-.job-title { font-weight: 700; color: #e65a28; text-transform: uppercase; font-size: 13px; }
+.job-title { font-weight: 700; color: #e63e01; text-transform: uppercase; font-size: 13px; }
 .name { font-size: 42px; margin: 10px 0; color: #000; font-weight: 700; }
-.job-description { font-size: 14px; line-height: 1.6; color: #555; margin-bottom: 40px; }
+.job-description { font-size: 14px; line-height: 1.6; color: #343434; margin-bottom: 40px; }
 
 .header-name {
     font-size: 20px;
@@ -83,16 +83,16 @@ main {
 
 .experience-item { margin-bottom: 25px; text-align: left; }
 .job-name { font-size: 16px; font-weight: 700; color: #000; display: block; }
-.company-name { font-size: 15px; color: #e65a28; font-weight: 700; margin: 2px 0; display: block; }
+.company-name { font-size: 15px; color: #e63e01; font-weight: 700; margin: 2px 0; display: block; }
 
 /* DATY DO LEWEJ */
 .date { 
     font-size: 13px; 
-    color: #777; 
+    color: #343434; 
     font-weight: 700; 
     margin-bottom: 10px; 
     display: block;
-    text-align: left; /* Wymuszenie wyrównania do lewej */
+    text-align: left; /* Wymuszenie wyrï¿½wnania do lewej */
 }
 
 .list { padding-left: 20px; font-size: 14px; line-height: 1.6; color: #444; }
