@@ -7,108 +7,116 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <aside class="sidebar">
-            <div class="photo-container">
-                <img src="photo.jpg" alt="Daria Grabska" class="cv-photo">
+    <div class="container">
+        <header class="cv-header">
+            <div class="header-text">
+                <h1 class="name">Daria Grabska</h1>
+                <p class="job-title" aria-level="2">Manual Tester / Accessibility Specialist</p>
+                <nav class="contact-info" aria-label="Contact Information">
+                    <a href="mailto:daria_grabska@wp.pl">daria_grabska@wp.pl</a>
+                    <span class="separator" aria-hidden="true">|</span>
+                    <a href="https://linkedin.com/in/daria-grabska" target="_blank" rel="noopener">LinkedIn</a>
+                    <span class="separator" aria-hidden="true">|</span>
+                    <a href="https://github.com/DariaGra" target="_blank" rel="noopener">GitHub</a>
+                </nav>
             </div>
-            
-            <h2 class="headers-secondary">Contact</h2>
-            <ul>
-                <li><strong>E:</strong> <a href="mailto:daria_grabska@wp.pl">daria_grabska@wp.pl</a></li>
-                <li><strong>L:</strong> <a href="https://linkedin.com/in/daria-grabska">LinkedIn</a></li>
-                <li><strong>G:</strong> <a href="https://github.com/DariaGra">GitHub</a></li>
-            </ul>
-
-            <h2 class="headers-secondary">Accessibility (a11y)</h2>
-            <ul>
-                <li><strong>Audits:</strong> WCAG 2.1/2.2 compliance audits.</li>
-                <li><strong>Tools:</strong> NVDA, VoiceOver, Axe, WAVE, ARC Toolkit.</li>
-                <li><strong>Workshops:</strong> Conducting internal a11y workshops for the QA team.</li>
-                <li><strong>Onboarding:</strong> Mentoring and onboarding new team members into accessibility topics.</li>
-                <li><strong>Documents:</strong> Verifying accessible PDF and Word files.</li>
-            </ul>
-
-            <h2 class="headers-secondary">Testing (QA)</h2>
-            <ul>
-                <li><strong>Processes:</strong> Functional, regression, and exploratory testing; Shift-left UX testing.</li>
-                <li><strong>Tools:</strong> JIRA, TestRail, DevTools, Google Analytics 4 (GA4).</li>
-                <li><strong>UI/UX:</strong> Storybook, Figma mockup verification, cross-browser consistency.</li>
-            </ul>
-
-            <h2 class="headers-secondary">IT Fundamentals</h2>
-            <ul>
-                <li><strong>API:</strong> Basic verification using Postman.</li>
-                <li><strong>Databases:</strong> SQL (basic queries and data operations).</li>
-                <li><strong>Web Stack:</strong> Semantic HTML, CSS (document structure).</li>
-            </ul>
-
-            <h2 class="headers-secondary">Other</h2>
-            <ul>
-                <li>English: Upper-intermediate (B2)</li>
-                <li>ISTQB Foundation Level Certificate</li>
-            </ul>
-        </aside>
+            <div class="photo-wrapper" aria-hidden="true">
+                <img src="photo.jpg" alt="" class="cv-photo">
+            </div>
+        </header>
 
         <main>
-            <div class="header-info">
-                <p class="job-title-top">Manual Tester / Accessibility Specialist</p>
-                <h1 class="name">Daria Grabska</h1>
-            </div>
-            
-            <p class="summary">
-                As someone who values continuous growth, I decided to pivot my career during the pandemic by completing postgraduate studies in Software Testing. Currently, I work as a Tester at Wakacje.pl, where I combine inquisitiveness with an unconventional approach to problem-solving. I specialize in ensuring high-quality UX and digital accessibility (WCAG). In my work, I strive to go beyond project assumptions, ensuring products are inclusive and polished in every aspect.
-            </p>
+            <section class="summary-section">
+                <h2 class="section-title">Professional Summary</h2>
+                <p>
+                    Tester at Wakacje.pl with a focus on digital accessibility (WCAG) and UX. Experienced in working with Design Systems and inclusive product development.
+                </p>
+            </section>
 
-            <h2 class="section-title">Professional Experience</h2>
+            <section aria-labelledby="tech-title">
+                <h2 id="tech-title" class="section-title">Technical Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Testing & Accessibility</h3>
+                        <ul>
+                            <li><strong>Accessibility:</strong> WCAG 2.1/2.2 compliance audits, accessible PDF/Word verification.</li>
+                            <li><strong>A11y Tools:</strong> NVDA, VoiceOver, Talkback, Axe, WAVE, ARC Toolkit.</li>
+                            <li><strong>QA Processes:</strong> Functional, regression, and exploratory testing; Shift-left UX testing.</li>
+                            <li><strong>Leadership:</strong> Internal a11y workshops and team mentoring.</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Infrastructure</h3>
+                        <ul>
+                            <li><strong>Environment:</strong> JIRA, Jenkins, Git, Visual Studio Code.</li>
+                            <li><strong>Automation:</strong> Playwright (JS/TS - learning in progress).</li>
+                            <li><strong>Technical:</strong> Jaeger (basic logs), Google Analytics 4 (GA4).</li>
+                            <li><strong>API & DB:</strong> Postman (basic), SQL (basic).</li>
+                            <li><strong>Languages:</strong> Polish (Native), English (B2).</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
-            <div class="entry">
-                <h3>Software Tester (Design System)</h3>
-                <p class="company-name">Wakacje.pl S.A.</p>
-                <span class="date">February 2025 – Present</span>
-                <ul>
-                    <li><strong>Accessibility:</strong> Conducting independent WCAG audits and analyzing code for barriers affecting screen reader users.</li>
-                    <li><strong>Design System:</strong> Testing component libraries in Storybook for consistency with Figma designs and technical documentation.</li>
-                    <li><strong>Consulting:</strong> Verifying mockups for UX and accessibility at an early stage (Shift-left) to optimize development.</li>
-                </ul>
-            </div>
+            <section aria-labelledby="experience-title">
+                <h2 id="experience-title" class="section-title">Professional Experience</h2>
+                
+                <article class="entry">
+                    <div class="entry-header">
+                        <h3>Software Tester (Design System)</h3>
+                        <span class="date">February 2025 – Present</span>
+                    </div>
+                    <p class="company">Wakacje.pl S.A.</p>
+                    <ul class="duties">
+                        <li>Developing a basic automation framework using <strong>Playwright & JavaScript</strong> for Design System components.</li>
+                        <li>Independent WCAG audits and code analysis for screen reader accessibility.</li>
+                        <li>Verifying components in Storybook against Figma designs and technical specs.</li>
+                        <li>Shift-left UX: verifying mockups at early design stages.</li>
+                    </ul>
+                </article>
 
-            <div class="entry">
-                <h3>Junior Software Tester</h3>
-                <p class="company-name">Wakacje.pl S.A.</p>
-                <span class="date">October 2023 – February 2025</span>
-                <ul>
-                    <li><strong>Manual Testing:</strong> Validation of web and mobile-web applications (regression, exploratory, and functional testing).</li>
-                    <li><strong>SEO & Analytics:</strong> Technical verification of SEO tags and Google Analytics 4 (GA4) event correctness.</li>
-                    <li><strong>A11y Leadership:</strong> Initiating and conducting internal educational sessions and workshops on digital accessibility for the QA team.</li>
-                </ul>
-            </div>
+                <article class="entry">
+                    <div class="entry-header">
+                        <h3>Junior Software Tester</h3>
+                        <span class="date">October 2023 – February 2025</span>
+                    </div>
+                    <p class="company">Wakacje.pl S.A.</p>
+                    <ul class="duties">
+                        <li>Manual testing of web and mobile-web applications (regression, functional).</li>
+                        <li>Technical verification of SEO tags and GA4 event correctness.</li>
+                        <li>Conducting internal accessibility workshops for the QA team.</li>
+                    </ul>
+                </article>
 
-            <div class="entry">
-                <h3>Senior Specialist</h3>
-                <p class="company-name">Marshal's Office of the Pomorskie Voivodeship</p>
-                <span class="date">December 2016 – September 2023</span>
-            </div>
+                <article class="entry">
+                    <div class="entry-header">
+                        <h3>Senior Specialist</h3>
+                        <span class="date">December 2016 – September 2023</span>
+                    </div>
+                    <p class="company">Marshal's Office of the Pomorskie Voivodeship</p>
+                </article>
 
-            <div class="entry">
-                <h3>Software Tester Intern</h3>
-                <p class="company-name">Bossard Poland</p>
-                <span class="date">June 2022 – August 2022</span>
-            </div>
+                <article class="entry">
+                    <div class="entry-header">
+                        <h3>Software Tester Intern</h3>
+                        <span class="date">June 2022 – August 2022</span>
+                    </div>
+                    <p class="company">Bossard Poland</p>
+                </article>
+            </section>
 
-            <h2 class="section-title">Education</h2>
-            <div class="entry">
-                <h3>Software Testing (Postgraduate Studies)</h3>
-                <p class="company-name">WSB University in Gdańsk | 2021 – 2022</p>
-            </div>
-            <div class="entry">
-                <h3>Ethnology (Master's and Bachelor's Degree)</h3>
-                <p class="company-name">University of Gdańsk | 2010 – 2015</p>
-            </div>
+            <section aria-labelledby="edu-title">
+                <h2 id="edu-title" class="section-title">Education & Certification</h2>
+                <div class="entry">
+                    <p><strong>ISTQB Foundation Level</strong></p>
+                    <p><strong>Software Testing (Postgraduate)</strong> | WSB University in Gdańsk</p>
+                    <p><strong>Ethnology (MA & BA)</strong> | University of Gdańsk</p>
+                </div>
+            </section>
 
-            <div class="clause">
+            <footer class="clause">
                 I hereby give consent for my personal data to be processed for the purpose of the recruitment process (under the Personal Data Protection Act of 10 May 2018 and in accordance with GDPR).
-            </div>
+            </footer>
         </main>
     </div>
 </body>
